@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.png" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <style>
+    .bg-light {
+      background-color: #f0f2f5 !important;
+    }
+  </style>
+</head>
+
+<body style="overflow-y: scroll;" class="bg-light">
+
+  <header>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid justify-content-between">
+        <!-- left elements -->
+        <div class="d-flex">
+          <a class="navbar-brand" href="#">
+            <img src="img/pngwing.com.png" height="30" alt="twitter Logo" loading="lazy" />
+          </a>
+          <div class="input-group rounded">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+              aria-describedby="search-addon" />
+            <span class="input-group-text border-0" id="search-addon">
+              <i class="fas fa-search"></i>
+            </span>
+          </div>
+        </div>
+        <!-- middle elements -->
+
+        <div>
+          <ul class="navbar-nav d-flex flex-row ">
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#">
+                <i class="fas fa-home fa-lg"></i>
+                <span class="badge rounded-pill badge-notification bg-danger">5</span>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#">
+                <i class="fas fa-flag fa-lg"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#">
+                <i class="fas fa-video fa-lg"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#">
+                <i class="fas fa-shopping-bag fa-lg"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#">
+                <i class="fas fa-users fa-lg"></i>
+                <span class="badge rounded-pill badge-notification bg-danger">25</span>
+              </a>
+            </li>
+
+
+          </ul>
+        </div>
+        <!-- right elements -->
+        <div>
+          <div>
+            <ul class="navbar-nav d-flex flex-row">
+              <!-- Avator -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdownMenuLink"
+                  role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  <img
+                    src="https://sun9-12.userapi.com/impg/ubn5R3drV8PvqBG6hTomnDejYRQK1L0qftN4FA/kV5kDvjiMD8.jpg?size=1080x1080&quality=96&sign=2b72a98625f929b0d2d27cdfae1739c5&type=album"
+                    class="rounded-circle" height="22" alt="Portrait of a Woman" loading="lazy" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">My profile</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Settings</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Logout</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-plus-circle fa-lg"></i>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle hidden-arrow fa-lg" href="#" id="navbarDropdownMenuLink"
+                  role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-comments"></i>
+                  <span class="badge rounded-pill badge-notification bg-danger">5</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">Some news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle hidden-arrow fa-lg" href="#" id="navbarDropdownMenuLink"
+                  role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-bell"></i>
+                  <span class="badge rounded-pill badge-notification bg-danger">15</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">Some news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle hidden-arrow fa-lg" href="#" id="navbarDropdownMenuLink"
+                  role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-chevron-circle-down"></i>
+
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#">Some news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another news</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <!--main-->
+  <main style="padding:0 100px 0 100px ;">
+    <!-- Background image -->
+    <section class="bg-white mb-4 shadow-2-strong">
+      <div class="container">
+
+        <section class="mb-5">
+          <div class="p-5 text-center bg-image shadow-1-strong rounded-bottom" style="
+           background-image: url('https://cdn.division.zone/uploads/2015/07/the-division-dark-zone-just-the-flu.jpg');
+           height: 400px;
+           ">
+          </div>
+          <div class="d-flex justify-content-center">
+            <img class="rounded-circle shadow-3-strong position-absolute" style="width: 168px; margin-top: -140px;"
+              src="https://sun9-12.userapi.com/impg/ubn5R3drV8PvqBG6hTomnDejYRQK1L0qftN4FA/kV5kDvjiMD8.jpg?size=1080x1080&quality=96&sign=2b72a98625f929b0d2d27cdfae1739c5&type=album"
+              alt="me">
+          </div>
+        </section>
+        <!-- Background image -->
+        <!-- Section: user data -->
+        <section class="text-center border-bottom">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+              <h2><strong>Ahmad Nehlawi</strong></h2>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, animi? Facilis,
+                temporibus id. Ducimus sint quasi vero dolores. Ad, tenetur eum? Dolor perferendis nam nesciunt
+                excepturi deserunt blanditiis, ex nemo!</p>
+            </div>
+          </div>
+
+        </section>
+
+
+        <!-- Section: user data -->
+        <!-- Section: bottons -->
+        <section class="py-3 d-flex justify-content-between align-items-center">
+          <!--leftsec-->
+          <div><button type="button" class="btn btn-link text-rese" style="color: black;"
+              data-ripple-color="dark">POSTS</button>
+            <button type="button" class="btn btn-link text-reset" style="color: black;"
+              data-ripple-color="dark">ABOUT</button>
+            <button type="button" class="btn btn-link text-rese" style="color: black;"
+              data-ripple-color="dark">FRIENDS<small class="text-muted">1458</small></button>
+            <button type="button" class="btn btn-link text-rese" style="color: black;"
+              data-ripple-color="dark">PHOTOS</button>
+            <div class="dropdown d-inline-block">
+              <a class="btn btn-link dropdown-toggle" style="color: black;" href="#" role="button" id="dropdownMenuLink"
+                data-mdb-toggle="dropdown" aria-expanded="false">
+                OTHERS
+              </a>
+
+              <ul class="dropdown-menu" style="color: black;" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" style="color: black;" href="#">Action</a></li>
+                <li><a class="dropdown-item" style="color: black;" href="#">Another action</a></li>
+                <li><a class="dropdown-item" style="color: black;" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--right sec-->
+          <div>
+            <button type="button" class="btn btn-light bg-light mr-2 px-3" style="color: black;"
+              data-ripple-color="dark"> Edit Profile <i class="far fa-edit mr-1"></i></button>
+            <button type="button" class="btn btn-light bg-light mr-2 px-3" style="color: black;"
+              data-ripple-color="dark"><i class="far fa-eye"></i></button>
+            <button type="button" class="btn btn-light bg-light mr-2 px-3" style="color: black;"
+              data-ripple-color="dark"><i class="fas fa-search"></i></button>
+            <button type="button" class="btn btn-light bg-light mr-2 px-3" style="color: black;"
+              data-ripple-color="dark"><i class="fas fa-ellipsis-h"></i></button>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- Section: bottons -->
+
+    <!--gray bg-->
+    <section class="bg-transparent">
+      <div class="contanor">
+        <div class="row gx-lg-5">
+
+          <div class="col-md-5 mb-5 mb-lg-0">
+            <div class="card mb-4">
+              <!--info-->
+              <div class="card-body">
+                <h5 class="card-title"><strong>Intro</strong></h5>
+                <ul class="list-unstyled text-muted">
+                  <li><i class="fas fa-briefcase me-3 mb-3"></i> CEO in <a href="" class="text-reset"><strong> Rest
+                        Green Energy</strong></a></li>
+                  <li><i class="fas fa-graduation-cap me-3 mb-3"></i> Graduated from <a href=""
+                      class="text-reset"><strong> Damascus Univercity</strong></a></li>
+                  <li><i class="fas fa-home me-3 mb-3"></i> Live in <a href="" class="text-reset"><strong> Sankt
+                        Peterburg , RU</strong></a></li>
+                  <li><i class="fas fa-rss me-3 mb-3"></i>followed by <a href=""
+                      class="text-reset me-1"><strong>550000</strong></a><strong>Persons</strong> </li>
+                  <li><i class="fab fa-internet-explorer me-3 mb-3"></i><a href="" class="text-reset"><strong>Ahmad
+                        Nehlawi</strong></a></li>
+                </ul>
+                <button type="button" class="btn btn-outline-dark btn-rounded bg-light btn-block mb-4"
+                  data-mdb-ripple-color="dark">EDITE DETALES</button>
+                <button type="button" class="btn btn-outline-dark btn-rounded bg-light btn-block mb-4"
+                  data-mdb-ripple-color="dark">HOBBIES</button>
+
+
+                <div class="lightbox">
+                  <div class="row gx-2 me-3 ms-3">
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-outline-dark btn-rounded bg-light btn-block mt-3 mb-2"
+                  data-mdb-ripple-color="dark">EDITE FEACHERED</button>
+              </div>
+            </div>
+            <!--photo-->
+            <div class="card mb-4">
+              <div class="card-body mb-4">
+                <a href="" class="text-reset d-inline-block mt-1">
+                  <h5 class="card-title"><strong>PHOTOS</strong></h5>
+                </a>
+                <a href="" class="btn btn-link d-md-inline-flex float-end py-1 px-3">See all photos</a>
+                <div class="lightbox">
+                  <div class="row gx-2 me-3 ms-3">
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                    <div class="col-lg-4 mb-2">
+                      <img src="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        data-img="https://media.gettyimages.com/photos/aerial-view-of-syria-picture-id149422235"
+                        alt="Lightbox image 1" class="w-100 shadow-1-strong rounded" />
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="btn btn-outline-dark btn-rounded bg-light btn-block mt-3 mb-2"
+                  data-mdb-ripple-color="dark">EDITE FEACHERED</button>
+              </div>
+            </div>
+            <!--friends-->
+            <div class="card mb-4">
+              <div class="card-body mb-4">
+                <a href="" class="text-reset d-inline-block mt-1">
+                  <h5 class="card-title me-1"><strong>Friends</strong></h5>
+                </a> <small>1435</small>
+                <a href="" class="btn btn-link d-md-inline-flex float-end py-1 px-3">Add Friends</a>
+
+                <div class="row gx-2 me-3 ms-3">
+                  <div class="col-lg-4 mb-2">
+                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" alt="Lightbox image 1"
+                      class="w-100 shadow-1-strong rounded" />
+                    <p class="text-center mb-1"><small>s3ed 70zani</small></p>
+                  </div>
+                  <div class="col-lg-4 mb-2">
+                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" alt="Lightbox image 1"
+                      class="w-100 shadow-1-strong rounded" />
+                    <p class="text-center mb-1"><small>s3ed 70zani</small></p>
+                  </div>
+                  <div class="col-lg-4 mb-2">
+                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" alt="Lightbox image 1"
+                      class="w-100 shadow-1-strong rounded" />
+                    <p class="text-center mb-1"><small>s3ed 70zani</small></p>
+                  </div>
+                  <div class="col-lg-4 mb-2">
+                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" alt="Lightbox image 1"
+                      class="w-100 shadow-1-strong rounded" />
+                    <p class="text-center mb-1"><small>s3ed 70zani</small></p>
+                  </div>
+                  <div class="col-lg-4 mb-2">
+                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" alt="Lightbox image 1"
+                      class="w-100 shadow-1-strong rounded" />
+                    <p class="text-center mb-1"><small>s3ed 70zani</small></p>
+                  </div>
+                  <div class="col-lg-4 mb-2">
+                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" alt="Lightbox image 1"
+                      class="w-100 shadow-1-strong rounded" />
+                    <p class="text-center mb-1"><small>s3ed 70zani</small></p>
+                  </div>
+                  <div class="col-lg-4 mb-2">
+                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" alt="Lightbox image 1"
+                      class="w-100 shadow-1-strong rounded" />
+                    <p class="text-center mb-1"><small>s3ed 70zani</small></p>
+                  </div>
+                  <div class="col-lg-4 mb-2">
+                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" alt="Lightbox image 1"
+                      class="w-100 shadow-1-strong rounded" />
+                    <p class="text-center mb-1"><small>s3ed 70zani</small></p>
+                  </div>
+                  <div class="col-lg-4 mb-2">
+                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" alt="Lightbox image 1"
+                      class="w-100 shadow-1-strong rounded" />
+                    <p class="text-center mb-1"><small>s3ed 70zani</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End of right sec-->
+          <!--modal-->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">...</div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--modal-->
+          <!--left sec-->
+          <div class="col-md-7 mb-4 mb-md-0">
+            <!--1st card-->
+            <div class="card mb-4">
+              <div class="card-body">
+                <div class="d-flex">
+                  <a href="">
+                    <img
+                      src="https://sun9-12.userapi.com/impg/ubn5R3drV8PvqBG6hTomnDejYRQK1L0qftN4FA/kV5kDvjiMD8.jpg?size=1080x1080&quality=96&sign=2b72a98625f929b0d2d27cdfae1739c5&type=album"
+                      style="height:40px ;" class="rounded-circle border me-2" alt="" />
+                  </a>
+                  <button data-mdb-toggle="modal" data-mdb-target="#exampleModal"
+                    class="btn btn-light btn-block btn-rounded bg-light ">what in the hill you want?</button>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-link btn-lg"><i class="fas fa-video me-1"></i>LIVE</button>
+                  <button class="btn btn-link btn-lg"><i class="fas fa-photo-video me-1"></i>PHOTO/VIDEO</button>
+                  <button class="btn btn-link btn-lg"><i class="fas fa-meh-rolling-eyes me-1"></i>FUCK MOOD</button>
+                </div>
+              </div>
+            </div>
+            <!--2nd card-->
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex mb-3">
+                  <a href="">
+                    <img
+                      src="https://sun9-12.userapi.com/impg/ubn5R3drV8PvqBG6hTomnDejYRQK1L0qftN4FA/kV5kDvjiMD8.jpg?size=1080x1080&quality=96&sign=2b72a98625f929b0d2d27cdfae1739c5&type=album"
+                      style="height:40px ;" class="rounded-circle border me-2" alt="" />
+                  </a>
+                  <div>
+                    <a href="" class="text-dark mb-0">
+                      <strong>Ahmad Nehlawi</strong>
+                    </a>
+                    <a href="" class="d-block text-muted" style=" margin-top: -6px;">10h</a>
+                  </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quam maiores nisi illum temporibus
+                  praesentium iste, labore dignissimos non, ducimus nihil. Nisi magni adipisci, dolorem odio aspernatur
+                  accusantium nobis ipsam.</p>
+              </div>
+              <a href=""><img
+                  src="https://tripsget.com/wp-content/uploads/2019/04/28351947370_fa5e078756_k-800x473.jpg.webp"
+                  class="w-100" alt="spb"></a>
+
+              <div class="card-body">
+                <div class="d-flex justify-content-between mb-3">
+                  <a href="">
+                    <i class="fas fa-thumbs-up text-primary"></i>
+                    <i class="fas fa-heart text-danger"></i>
+                    <span>124</span>
+                  </a>
+                  <div>
+                    <a href="" class="text-muted"> 8 comments </a>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between text-center border-top border-bottom mb-4">
+                  <button class="btn btn-link btn-lg">
+                    <i class="fas fa-thumbs-up me-2"></i>Like
+                  </button>
+                  <button class="btn btn-link btn-lg">
+                    <i class="fas fa-comment me-2"></i>Comment
+                  </button>
+                  <button class="btn btn-link btn-lg">
+                    <i class="fas fa-share me-2"></i>Share
+                  </button>
+                </div>
+                <div class="d-flex mb-3">
+                  <a href="">
+                    <img
+                      src="https://sun9-12.userapi.com/impg/ubn5R3drV8PvqBG6hTomnDejYRQK1L0qftN4FA/kV5kDvjiMD8.jpg?size=1080x1080&quality=96&sign=2b72a98625f929b0d2d27cdfae1739c5&type=album"
+                      style="height:40px ;" class="rounded-circle border me-2" alt="" />
+                  </a>
+                  <div class="form-outline w-100">
+                    <textarea class="form-control" id="textAreaExample" rows="2"></textarea>
+                    <label class="form-label" for="textAreaExample">write a comment</label>
+                  </div>
+                </div>
+                <!--comment 1-->
+                <div class="d-flex mb-3">
+                  <a href="">
+                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" style="height:40px ;"
+                      class="rounded-circle border me-2" alt="" />
+                  </a>
+                  <div>
+                    <div class="bg-light rounded-7 px-3 py-1">
+                      <a href="" class="text-black"><strong>smer 7m9ani</strong></a>
+                      <a href="" class="text-muted d-block"><small>Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Dignissimos ipsum et sequi nulla porro. Repellat ea quia distinctio esse omnis eaque.
+                          Modi consequatur quos iusto neque eaque adipisci laboriosam inventore.</small></a>
+                    </div>
+                    <a href="" class="text-muted pe-3 ms-3">
+                      <small> like</small>
+                    </a>
+                    <a href="" class="text-muted pe-3">
+                      <small> replay</small>
+                    </a>
+                  </div>
+                </div>
+                <!--comment 1-->
+                <!--comment 2-->
+                <div class="d-flex mb-3">
+                  <a href="">
+                    <img src="https://mdbootstrap.com/img/new/avatars/3.jpg" style="height:40px ;"
+                      class="rounded-circle border me-2" alt="" />
+                  </a>
+                  <div>
+                    <div class="bg-light rounded-7 px-3 py-1">
+                      <a href="" class="text-black"><strong>smer 7m9ani 23</strong></a>
+                      <a href="" class="text-muted d-block"><small>Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Dignissimos ipsum et sequi nulla porro .</small></a>
+                    </div>
+                    <a href="" class="text-muted pe-3 ms-3">
+                      <small> like</small>
+                    </a>
+                    <a href="" class="text-muted pe-3">
+                      <small> replay</small>
+                    </a>
+                  </div>
+                </div>
+                <!--comment 2-->
+                <!--comment 3-->
+                <div class="d-flex mb-3">
+                  <a href="">
+                    <img src="https://mdbootstrap.com/img/new/avatars/5.jpg" style="height:40px ;"
+                      class="rounded-circle border me-2" alt="" />
+                  </a>
+                  <div>
+                    <div class="bg-light rounded-7 px-3 py-1">
+                      <a href="" class="text-black"><strong>smer 7m9ani 23</strong></a>
+                      <a href="" class="text-muted d-block"><small>Repellat ea quia distinctio esse omnis eaque.
+                          Modi consequatur quos iusto neque eaque adipisci laboriosam inventore.</small></a>
+                    </div>
+                    <a href="" class="text-muted pe-3 ms-3">
+                      <small> like</small>
+                    </a>
+                    <a href="" class="text-muted pe-3">
+                      <small> replay</small>
+                    </a>
+                  </div>
+                </div>
+                <!--comment 3-->
+                <!--comment 4-->
+                <div class="d-flex mb-3">
+                  <a href="">
+                    <img src="https://mdbootstrap.com/img/new/avatars/18.jpg" style="height:40px ;"
+                      class="rounded-circle border me-2" alt="" />
+                  </a>
+                  <div>
+                    <div class="bg-light rounded-7 px-3 py-1">
+                      <a href="" class="text-black"><strong>smer 7m9ani 45</strong></a>
+                      <a href="" class="text-muted d-block"><small>5tiar alkobba.</small></a>
+                    </div>
+                    <a href="" class="text-muted pe-3 ms-3">
+                      <small> like</small>
+                    </a>
+                    <a href="" class="text-muted pe-3">
+                      <small> replay</small>
+                    </a>
+                  </div>
+                </div>
+                <!--comment 4-->
+               
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <!--gray bg-->
+  </main>
+  <!--footer-->
+  <footer>
+
+  </footer>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
+  <script type="text/javascript" src="js/index.bundle.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>
